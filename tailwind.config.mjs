@@ -1,8 +1,8 @@
 
 /** @type {import('tailwindcss').Config} */
-export default {
+const tailwindConfig = {
   content: [
-  "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
@@ -30,10 +30,12 @@ export default {
         white: "4px 4px 0 #fff",
       },
       gridTemplateColumns: {
-        'auto':'repeat(auto-fit, minmax(200px, 1fr))'
+        auto: "repeat(auto-fit, minmax(200px, 1fr))",
       },
     },
   },
-  darkMode : 'selector',
+  darkMode: "selector",
   plugins: [],
 };
+
+export default tailwindConfig;
