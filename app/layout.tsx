@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className='scroll-smooth '>
+    <html lang="en" className='scroll-smooth dark'>
       <body   
       className={`${outfit.variable} ${ovo.variable} h-full antialiased leading-8 
       overflow-x-hidden dark:bg-darkTheme dark:text-white`}
