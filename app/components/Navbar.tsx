@@ -45,7 +45,7 @@ const Navbar = ({
             <Image
                 src={assets.header_bg_color}
                 alt="Header Background"
-                className="w-full -translate-y-[80%]"
+                className="w-full translate-y-[-80%]"
                 priority
             />
         </div>
@@ -58,7 +58,7 @@ const Navbar = ({
             </a>
 
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 
-            dark:rounded-sm dark:text-white dark:bg-emerald-950 dark:border-gray-400 dark:border-1
+            dark:rounded-sm dark:text-white dark:bg-emerald-950 dark:border-gray-400 dark:border
              ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"}`}>
                 <li> <a className='font-Ovo' href="#header">Home</a> </li>
                 <li> <a className='font-Ovo' href="#about">About</a> </li>

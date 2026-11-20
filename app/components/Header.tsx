@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { assets } from '../../assets/assets'
 
 
-const Header = ({isDarkMode}) => {
+const Header = ({ isDarkMode }: { isDarkMode: boolean }) => {
   return (
 
     <div id='header' className='w-11/12 max-w-3xl text-center mx-auto min-h-screen pt-28 pb-10 flex flex-col justify-center items-center gap-4'>    

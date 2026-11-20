@@ -173,6 +173,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const Contact = ({ isDarkMode })=>{
+    void isDarkMode;
     const [result, setResult] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     const onSubmit = async (event)=>{
         event.preventDefault();
@@ -195,14 +196,14 @@ const Contact = ({ isDarkMode })=>{
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         id: "contact",
-        className: 'w-full px-[12%] py-10 scroll-mt-20 bg-[url"/footer_bg_color.png")] bg-no-repeat bg-center bg-[length:90%_auto]',
+        className: 'w-full px-[12%] py-10 scroll-mt-20 bg-[url"/footer_bg_color.png")] bg-no-repeat bg-center bg-size-[90%_auto]',
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
                 className: "text-center mb-2 text-lg font-Ovo",
                 children: " Connect with me "
             }, void 0, false, {
                 fileName: "[project]/app/components/Contact.tsx",
-                lineNumber: 36,
+                lineNumber: 38,
                 columnNumber: 5
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -210,7 +211,7 @@ const Contact = ({ isDarkMode })=>{
                 children: " Get in touch "
             }, void 0, false, {
                 fileName: "[project]/app/components/Contact.tsx",
-                lineNumber: 37,
+                lineNumber: 39,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -218,7 +219,7 @@ const Contact = ({ isDarkMode })=>{
                 children: "I am a full stack developer with Digital Solution to real world problems."
             }, void 0, false, {
                 fileName: "[project]/app/components/Contact.tsx",
-                lineNumber: 38,
+                lineNumber: 40,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -236,7 +237,7 @@ const Contact = ({ isDarkMode })=>{
                                 name: "name"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Contact.tsx",
-                                lineNumber: 44,
+                                lineNumber: 46,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -247,13 +248,13 @@ const Contact = ({ isDarkMode })=>{
                                 name: "email"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Contact.tsx",
-                                lineNumber: 46,
+                                lineNumber: 48,
                                 columnNumber: 17
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Contact.tsx",
-                        lineNumber: 43,
+                        lineNumber: 45,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -264,7 +265,7 @@ const Contact = ({ isDarkMode })=>{
                         name: "message"
                     }, void 0, false, {
                         fileName: "[project]/app/components/Contact.tsx",
-                        lineNumber: 49,
+                        lineNumber: 51,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -278,33 +279,33 @@ const Contact = ({ isDarkMode })=>{
                                 className: "w-4"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Contact.tsx",
-                                lineNumber: 54,
+                                lineNumber: 56,
                                 columnNumber: 24
                             }, ("TURBOPACK compile-time value", void 0)),
                             " "
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Contact.tsx",
-                        lineNumber: 51,
+                        lineNumber: 53,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         children: result
                     }, void 0, false, {
                         fileName: "[project]/app/components/Contact.tsx",
-                        lineNumber: 56,
+                        lineNumber: 58,
                         columnNumber: 13
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/Contact.tsx",
-                lineNumber: 42,
+                lineNumber: 44,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Contact.tsx",
-        lineNumber: 34,
+        lineNumber: 36,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -613,7 +614,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode })=>{
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$image$2d$component$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__Image__as__default$3e$__["default"], {
                     src: __TURBOPACK__imported__module__$5b$project$5d2f$assets$2f$assets$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["assets"].header_bg_color,
                     alt: "Header Background",
-                    className: "w-full -translate-y-[80%]",
+                    className: "w-full translate-y-[-80%]",
                     priority: true
                 }, void 0, false, {
                     fileName: "[project]/app/components/Navbar.tsx",
@@ -647,7 +648,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode })=>{
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                         className: `hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 
-            dark:rounded-sm dark:text-white dark:bg-emerald-950 dark:border-gray-400 dark:border-1
+            dark:rounded-sm dark:text-white dark:bg-emerald-950 dark:border-gray-400 dark:border
              ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {

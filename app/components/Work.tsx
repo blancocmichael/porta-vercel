@@ -3,7 +3,7 @@ import { assets } from '@/assets/assets'
 import Image from 'next/image'
 
 
-const Work = ({isDarkMode}) => {
+const Work = ({ isDarkMode }: { isDarkMode: boolean }) => {
   return (
 
     <div id='work' className='w-full px-[12%] py-10 scroll-mt-20'>
