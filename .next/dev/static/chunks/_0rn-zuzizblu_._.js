@@ -535,7 +535,6 @@ const Header = ({ isDarkMode })=>{
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: "#contact",
-                        onClick: ()=>alert("CONTACT BUTTON WORKS"),
                         className: "flex items-center gap-3 px-10 py-2.5 border border-gray-500\n                                    rounded-md ml-4 text-white bg-black font-Ovo dark:bg-emerald-950 dark:border-white",
                         children: [
                             "Contact",
@@ -545,7 +544,7 @@ const Header = ({ isDarkMode })=>{
                                 alt: "Contact Icon"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.tsx",
-                                lineNumber: 32,
+                                lineNumber: 31,
                                 columnNumber: 37
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -566,13 +565,13 @@ const Header = ({ isDarkMode })=>{
                                 alt: "Download Icon"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Header.tsx",
-                                lineNumber: 42,
+                                lineNumber: 41,
                                 columnNumber: 18
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/components/Header.tsx",
-                        lineNumber: 39,
+                        lineNumber: 38,
                         columnNumber: 18
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
@@ -790,7 +789,6 @@ const Navbar = ({ isDarkMode, setIsDarkMode })=>{
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: ()=>{
-                                    alert("NAVBAR BUTTON WORKS");
                                     setIsDarkMode((prev)=>!prev);
                                 },
                                 className: "cursor-pointer",

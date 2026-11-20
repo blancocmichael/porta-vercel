@@ -70,7 +70,7 @@ const Navbar = ({
             <div className='flex items-center gap-4'>
                                             <button
                             onClick={() => {
-                                alert("NAVBAR BUTTON WORKS");
+                                
                                 setIsDarkMode((prev: boolean) => !prev);
                             }}
                             className="cursor-pointer"
